@@ -14,6 +14,7 @@ RSpec.describe DiscourseChatIntegration::Provider::DiscordProvider do
         data: {
           name: "Awesome Channel",
           webhook_url: "https://discord.com/api/webhooks/1234/abcd",
+          thread_name: "Testing Thread",
         },
       )
     end
