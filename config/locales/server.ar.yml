@@ -69,7 +69,6 @@ ar:
     deleted_group: "(مجموعة محذوفة)"
     group_mention_template: "الإشارات إلى: @%{name}"
     group_message_template: "الرسائل إلى: @%{name}"
-    admin_error: "هناك أخطاء في بعض قنوات تكاملات الدردشة. انتقل إلى <a href='%{base_path}/admin/plugins/chat-integration'>قسم تكامل الدردشة</a> لمعرفة المزيد."
     provider:
       slack:
         status:
@@ -217,3 +216,6 @@ ar:
         new_topic: "منشور جديد على %{site_title}"
         author: "من قِبل @%{username}"
         link: "العرض على %{site_title}"
+      groupme:
+        errors:
+          instance_names_issue: "لم يتم إدخال أسماء المثيلات أو أن تنسيقاتها غير صحيحة"

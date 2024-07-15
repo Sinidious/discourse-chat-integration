@@ -5,11 +5,12 @@
 # https://translate.discourse.org/
 
 fr:
-  js:
+  admin_js:
     admin:
       site_settings:
         categories:
           chat_integration: "Intégrations du chat"
+  js:
     chat_integration:
       menu_title: "Intégrations du chat"
       settings: "Paramètres"
@@ -177,7 +178,6 @@ fr:
               help: "nom de l'instance GroupMe tel qu'indiqué dans les paramètres du site. Utilisez « tous » pour envoyer à toutes les instances"
           errors:
             not_found: "Le chemin vers lequel vous avez tenté de publier votre message n'a pas été trouvé. Vérifiez l'ID du bot dans les paramètres du site."
-            instance_names_issue: "les noms d'instance sont incorrectement formatés ou non renseignés"
         teams:
           title: "Microsoft Teams"
           param:

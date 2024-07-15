@@ -67,7 +67,6 @@ sv:
     deleted_group: "(raderad grupp)"
     group_mention_template: "omnämnanden av: @%{name}"
     group_message_template: "meddelanden till: @%{name}"
-    admin_error: "Vissa chattintegrationskanaler har felaktigheter. Besök <a href='%{base_path}/admin/plugins/chat-integration'>chattintegreringssektionen</a> för att ta reda på mer."
     provider:
       slack:
         status:
@@ -215,3 +214,6 @@ sv:
         new_topic: "Nytt ämne på %{site_title}"
         author: "av @%{username}"
         link: "Visa på %{site_title}"
+      groupme:
+        errors:
+          instance_names_issue: "instansnamn felaktigt formaterade eller är inte angivna"

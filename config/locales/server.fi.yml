@@ -69,7 +69,6 @@ fi:
     deleted_group: "(poistettu ryhmä)"
     group_mention_template: "@%{name} mainittu"
     group_message_template: "Viestejä käyttäjälle: @%{name}"
-    admin_error: "Joissakin chat-integraatokanavissa on virheitä. Lisätietoja saat <a href='%{base_path}/admin/plugins/chat-integration'>chatin integrointiosiossa</a>."
     provider:
       slack:
         status:
@@ -217,3 +216,6 @@ fi:
         new_topic: "Uusi ketju sivustolla %{site_title}"
         author: "käyttäjältä @%{username}"
         link: "Näytä sivustolla %{site_title}"
+      groupme:
+        errors:
+          instance_names_issue: "Esiintymien nimet on muotoiltu väärin tai niitä ei ole annettu"

@@ -32,6 +32,8 @@ module DiscourseChatIntegration
     end
 
     def self.is_enabled(provider)
+      provider = get_by_name(provider) if provider.is_a?(String)
+
       if defined?(provider::PROVIDER_ENABLED_SETTING)
         SiteSetting.public_send(provider::PROVIDER_ENABLED_SETTING)
       else
@@ -56,7 +58,7 @@ module DiscourseChatIntegration
 
       def self.requires_provider(provider_name)
         before_action do
-          raise ProviderDisabled.new unless Provider.enabled_provider_names.include?(provider_name)
+          raise ProviderDisabled.new if Provider.enabled_provider_names.exclude?(provider_name)
         end
       end
 

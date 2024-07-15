@@ -5,11 +5,12 @@
 # https://translate.discourse.org/
 
 ru:
-  js:
+  admin_js:
     admin:
       site_settings:
         categories:
           chat_integration: "Интеграция с чатами"
+  js:
     chat_integration:
       menu_title: "Интеграция с чатами"
       settings: "Настройки"
@@ -177,7 +178,6 @@ ru:
               help: "Имя экземпляра Groupme, указанное в настройках сайта. Используйте «все» для отправки всем экземплярам"
           errors:
             not_found: "Путь, по которому вы пытались опубликовать ваше сообщение, не найден. Проверьте идентификатор бота в настройках сайта."
-            instance_names_issue: "Имена экземпляров неправильно отформатированы или не указаны"
         teams:
           title: "Microsoft Teams"
           param:

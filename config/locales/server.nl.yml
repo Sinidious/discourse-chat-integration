@@ -69,7 +69,6 @@ nl:
     deleted_group: "(verwijderde groep)"
     group_mention_template: "vermeldingen van: @%{name}"
     group_message_template: "berichten naar: @%{name}"
-    admin_error: "Sommige chatintegratiekanalen bevatten fouten. Ga naar <a href='%{base_path}/admin/plugins/chat-integration'>het onderdeel chatintegratie</a> voor meer informatie."
     provider:
       slack:
         status:
@@ -217,3 +216,6 @@ nl:
         new_topic: "Nieuw topic op %{site_title}"
         author: "van @%{username}"
         link: "Weergeven op %{site_title}"
+      groupme:
+        errors:
+          instance_names_issue: "instantienamen onjuist geschreven of niet opgegeven"
