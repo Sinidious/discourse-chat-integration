@@ -73,7 +73,7 @@ module DiscourseChatIntegration
               },
             },
           ],
-          thread_name: "#{topic.title} #{(category == "[uncategorized]") ? "" : category}}",
+          thread_name: "#{(category == "[uncategorized]") ? "" : category} | #{topic.title}",
         }
 
         message
